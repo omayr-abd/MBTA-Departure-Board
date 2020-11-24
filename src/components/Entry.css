@@ -1,0 +1,20 @@
+.entryRow {
+  font-family: 'MBTA South Station Display';
+  font-size: 2rem;
+  color: #d3c011;
+  display: grid;
+  grid-template-columns: 16.2% 16.2% 16.2% 16.2% 16.2% 16.2%;
+  grid-gap: 10px;
+  background-color: #1b1b1b;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.entryColumn {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bold;
+}

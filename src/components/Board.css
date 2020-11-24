@@ -1,0 +1,35 @@
+.titleRow{
+  font-family: 'MBTA South Station Display';
+  font-size: 2rem;
+  color: #c7c7c7;
+  display: grid;
+  grid-template-columns: 16.2% 16.2% 16.2% 16.2% 16.2% 16.2%;
+  grid-gap: 10px;
+  background-color: #1b1b1b;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.titleColumn {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.stationBoard {
+  margin: 2.5% 0%;
+}
+
+.heading {
+  background-color: #1b1b1b;
+  color: #c7c7c7;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'MBTA South Station Display';
+  font-size: 2rem;
+  text-align: center;
+}
